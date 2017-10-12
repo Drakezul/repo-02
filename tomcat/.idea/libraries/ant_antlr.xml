@@ -1,0 +1,28 @@
+<component name="libraryTable">
+  <library name="ant-antlr">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../lib/ant-antlr1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../lib/ant-apache-bcel1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../lib/ant-apache-log4j1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../lib/ant-apache-bsf1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../lib/ant-apache-oro1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../lib/ant-apache-regexp1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../lib/ant-apache-xalan21.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../lib/ant-apache-resolver1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../lib/ant-commons-logging1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../lib/ant-javamail1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../lib/ant-commons-net1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../lib/ant-jdepend1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../lib/ant-jmf1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../lib/ant-jsch1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../lib/ant-junit41.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../lib/ant-junit1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../lib/ant-launcher1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../lib/ant-testutil1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../lib/ant-swing1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../lib/ant1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

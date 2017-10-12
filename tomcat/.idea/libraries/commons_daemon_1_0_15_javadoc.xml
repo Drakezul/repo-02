@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="commons-daemon-1.0.15-javadoc">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../lib/commons-daemon-1.0.151.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../lib/commons-daemon-1.0.15-javadoc1.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../lib/commons-daemon-1.0.15-sources1.jar!/" />
+    </SOURCES>
+  </library>
+</component>
