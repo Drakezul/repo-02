@@ -24,10 +24,9 @@ Um den Ablauf eines Request zu verstehen, habe wir erstmal bei verschiedenen Htt
 | Klasse | Beschreibung |
 | -------|:------------:|
 | JIoEndpoint | Handle incoming TCP connections. |
-| Http11Protocol||
-| http11Processor||
-| Processes HTTP requests.||
-| CoyoteAdapter | Implementation of a request processor which delegates the processing to a* Coyote processor.|
+| Http11Protocol| Abstract the protocol implementation, including threading, etc.|
+| http11Processor|Process pipelined HTTP requests on the specified socket.|
+| CoyoteAdapter | Implementation of a request processor which delegates the processing to a Coyote processor.|
 
 
 
