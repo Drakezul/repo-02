@@ -20,6 +20,15 @@ Anhand des Graphen unten, können folgene Teile geclustert werden:
 
 Um den Ablauf eines Request zu verstehen, habe wir erstmal bei verschiedenen Http Klassen einen Breakpoint gesetzt, bis einer bei einem Request angehalten wurde. Durch den Stacktrace und das weitere Debuggen von diesem Punkt hat sich folgender Verlauf ergeben:
 
-![Graph of Request trace](request_trace.pdf)
+
+| Klasse | Beschreibung |
+| -------|:------------:|
+| JIoEndpoint | Handle incoming TCP connections. |
+| Http11Protocol||
+| http11Processor||
+| Processes HTTP requests.||
+| CoyoteAdapter | Implementation of a request processor which delegates the processing to a* Coyote processor.|
+
+
 
 
