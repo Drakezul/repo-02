@@ -1,0 +1,5 @@
+digraph {
+JIoEndpoint -> Http11Protocol
+Http11Protocol -> http11Processor
+http11Processor -> CoyoteAdapter
+}
