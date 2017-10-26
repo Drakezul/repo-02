@@ -1,0 +1,13 @@
+ThreadPool -> ChannelSocket.runIt() -> ChannelSocket.processConnection() -> channelSocket.receive() -> channelSocket.read() for wrong port 8009 ? why? from where? wat?
+---------------------------
+-->Cataline.load() load/reads XML document (by digester) and parses it --> calls rules
+	--> ConnectorCreateRule.begin(55) 
+		-> new Connector(constr: 79) -> 
+			Http11Protocol by class.newInstance() 
+		--> connector.initialize() 
+			--> protocolHandler ( Http11Protocol).init(1131) -->
+			--> endpoint(JIoEndpoint).init(180)
+-->Catalina.start()
+	--> Connector.start(1220)
+		--> protocolHandler.start()
+			--> endpoint (JIoEndpoint).start()
